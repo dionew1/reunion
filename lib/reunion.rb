@@ -6,7 +6,7 @@ class Reunion
     @location = location
     @activity = activity
     @participants = participants
-    @activities =[]
+    @activities = []
   end
 
   def add_activity

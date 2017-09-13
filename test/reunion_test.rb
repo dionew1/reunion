@@ -13,6 +13,7 @@ class ReunionTest < Minitest::Test
 
   def test_reunion_has_activites
     reunion = Reunion.new("beach", "bowling", {:name => "Kelly", :paid => 4.00})
+    reunion.add_activity
 
     assert_equal 1, reunion.activities.count
   end
